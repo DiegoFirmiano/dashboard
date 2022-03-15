@@ -1,0 +1,26 @@
+/* Sidebar search input */
+.sidebar input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid $color1;
+  color: gray;
+  font-weight: bold;
+  -webkit-box-shadow: 3px 7px 19px -17px rgba(153,153,153,0.73);
+  -moz-box-shadow: 3px 7px 19px -17px rgba(153,153,153,0.73);
+  box-shadow: 3px 7px 19px -17px rgba(153,153,153,0.73);
+}
+
+.search-hide {
+  display: none;
+}
+
+.search-show {
+  display: block!important;
+}
+
+@media (max-width: 1024px) {
+  .search {
+    display: none;
+  }
+}

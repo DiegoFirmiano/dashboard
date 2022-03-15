@@ -1,0 +1,23 @@
+/* Content */
+.content {
+  padding: 1em;
+  width: calc(100% - 300px);
+  min-height: 100vh;
+  display: flex;
+  margin-left: auto;
+  flex-direction: column;
+  box-sizing: border-box !important;
+  transition: all .2s ease-in-out;
+  overflow-x: hidden;
+
+}
+
+.content-extended {
+  width: calc(100% - 60px);
+}
+
+@media (max-width: 1024px) {
+  .content {
+    width: calc(100% - 60px);
+  }
+}

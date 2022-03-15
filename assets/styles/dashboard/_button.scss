@@ -1,0 +1,19 @@
+/* default btn style */
+.button-1 {
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background: $color1;
+  cursor: pointer;
+  font-weight: bold;
+  transform: scale(1);
+  position: relative;
+  transition: all .2s ease-in;
+  -webkit-box-shadow: 3px 7px 19px -10px rgba(153,153,153,0.73);
+  -moz-box-shadow: 3px 7px 19px -10px rgba(153,153,153,0.73);
+  box-shadow: 3px 7px 19px -10px rgba(153,153,153,0.73);
+
+  &:hover {
+    transform: scale(1.02);
+  }
+}

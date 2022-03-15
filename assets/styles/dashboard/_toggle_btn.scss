@@ -1,0 +1,40 @@
+/* Sidebar btn */
+.toggle_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: $color1;
+  color: $color2;
+  border-radius: 50%;
+  cursor: pointer;
+  right: -50px;
+  top: 10px;
+  z-index: 200;
+  margin-bottom: 15px;
+  transition: all .3s ease-in-out;
+
+  #icon svg {
+    fill: $color2!important;
+    background: $color1;
+    color: $color2!important;
+  }
+}
+
+.toggle_btn_opened {
+  transform: rotate(0deg)!important;
+  transition: all .3s ease-in-out;
+}
+
+.toggle_btn_closed {
+  transform: rotate(180deg)!important;
+  transition: all .3s ease-in-out;
+}
+
+@media (max-width: 1024px) {
+  .toggle_btn {
+    transform: rotate(-180deg);
+    transition: all .3s ease-in-out;
+  }
+}
